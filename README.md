@@ -35,9 +35,8 @@ Let's begin!
 - Delete every file that doesn't have a .patch extension;
 - Go back `cd..` and go into the linux kernel folder `cd linux-5.10.12`;
 - Let's apply the patches!
-- `for n in ~/Downloads/linux-mbp-arch/\*.patch; do patch -p1 --verbose <$n; done`
+- `for n in ~/Downloads/linux-mbp-arch/*.patch; do patch -p1 --verbose <$n; done`
 - We now have the kernel patched, all we need to do is compile it;
-- Go back to your kernel folder `cd ../linux-5.10.12/`
 - Let's download a few dependencies;
 - apt-get install libncurses-dev libssl-dev flex bison build-essential;
 - Let's take care of the configuration, there are three ways to approach this:
