@@ -55,6 +55,7 @@ Let's begin!
  - Reboot your Macbook, boot into the new kernel.
  - you should now be on 5.10.12 with everything workin, verify by running, uname -r
  
- #Acknowldgements
+ # Acknowldgements
  Thanks to Redecorating for the support and reponding to DMs at 2AM.
+ 
  Thanks to networkException for sending some nice resources and overall good talk.
