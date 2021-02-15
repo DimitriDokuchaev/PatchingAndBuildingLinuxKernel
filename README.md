@@ -20,3 +20,14 @@ No particular reason apart from the fact of running a more recent kernel that ha
 # Tutorial
 
 Let's begin!
+
+- Download the Linux kernel from here https://kernel.org
+- Click on the HTTP link and navigate to https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/
+- Select the tar.gz file for the kernel you wish to download, we will use kernel 5.10.12 which has patches avvailable for the T2 macbook pro
+- Once done navigate to the Downloads folder, cd ~/Downloads
+- Unpack the tar.gz file, gunzip linux-5.10.12.tar.gz
+- Unpack the tar file, tar -xvf linux-5.10.12.tar
+- You should now have a folder in your downloads called linux-5.10.12 with the kernel source inside
+- Let's clone aunali1's repo which has the patches for the T2 Macbook pro.
+- git clone https://github.com/aunali1/;inux-mbp-arch
+- you should now have two folders, one with the linux kernel sources named linux-5.10.12 and another with the macbook specific patches named linux-mbp-arch
